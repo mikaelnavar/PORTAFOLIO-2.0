@@ -27,7 +27,7 @@ body {
 }
 
 /* Diseño del menú */
-.menu-list {
+.navar__list {
     display: flex;
     position: fixed;
     justify-content: flex-end;
@@ -42,7 +42,7 @@ body {
 }
 
 
-.menu-list-items {
+.navar__list-items {
     display: flex;
     font-size: 22px;
     font-weight: bold;
@@ -55,12 +55,12 @@ body {
     padding-right: 10px;
 }
 
-.menu-list-items:hover {
+.navar__list-items:hover {
     color: white;
 }
 
 /* Deseño de la sección principal*/
-.section-principal {
+.section__titulo {
     width: 100%;
     height: 100%;
     background: var(--beige-primario);
@@ -71,7 +71,7 @@ body {
 
 /*Diseño de los titulos y de la imagen de perfil*/
 
-.title-div {
+.titulo__div {
     width: 70%;
     display: flex;
     flex-direction: row-reverse;
@@ -81,7 +81,7 @@ body {
     margin-bottom: 40px;
 }
 
-.imagen-profile {
+.img__profile {
     border-radius: 50%;
     width: 300px;
     height: 300px;
@@ -92,9 +92,9 @@ body {
 }
 
 
-/*Diseño de la sección principal la parte de los titulos*/
+/* style Titulo Principal */
 
-.title-container {
+.titulo__container {
     display: flex;
     flex-direction: column;
     width: 60%;
@@ -103,7 +103,7 @@ body {
     margin-top: 40px;
 }
 
-.title-principal {
+.titulo__principal {
     font-weight: bold;
     font-size: 35px;
     padding: 5px;
@@ -113,7 +113,7 @@ body {
     text-align: center;
 }
 
-.title-information {
+.title__info {
     font-size: 24px;
     margin-bottom: 5px;
     line-height: 1.5;
@@ -122,7 +122,7 @@ body {
 
 /*Formato a la lista de las redes sociales*/
 
-.list-socialmedia {
+.list__socialmedia {
     display: flex;
     flex-direction: row;
     margin: 2px;
@@ -130,7 +130,7 @@ body {
     justify-content: center;
 }
 
-.menu-list-socialmedia {
+.menu_list_socialmedia {
     display: flex;
     cursor: pointer;
     justify-content: center;
@@ -138,19 +138,19 @@ body {
 
 }
 
-.menu-list-socialmedia img {
+.menu_list_socialmedia img {
     width: 35px;
     margin: 0 auto;
 }
 
-.list-socialmedia .menu-list-socialmedia:not(:last-child) {
+.menu_list_socialmedia .menu_list_socialmedia:not(:last-child) {
     margin-right: 20px;
 }
 
-/* Diseño de la sección Sobre mí*/
+/* Style Abou me*/
 
-/*sction: about-me*/
-.about-me {
+/* Section Abou me*/
+.aboutme {
     width: 100%;
     height: 100%;
     display: flex;
@@ -161,7 +161,7 @@ body {
 
 }
 
-.about-container {
+.about__container {
     width: 70%;
     height: auto;
     display: flex;
@@ -174,17 +174,17 @@ body {
 
 
 
-.about-paragraph {
+.about__paragraph {
     display: flex;
     font-size: 24px;
     line-height: 1.5;
     margin: 10px;
 }
 
-/* Diseño de la sección Skills y de Hobbies*/
+/* STYLES SKILLS Y HOBBIES */
 
-/*section skills*/
-.section-skills {
+/* section skills */
+.section__skills {
     display: flex;
     padding: 10px;
     background: var(--beige-primario);
@@ -192,13 +192,13 @@ body {
     flex-direction: column;
 }
 
-/*Estilos a los titulos de skills, hobbies,formación académica, experiencia*/
-.about-little,
-.skills-title,
-.hobbies-title,
-.education-title,
-.experience-section-title,
-.contact-title {
+/* STYLES TITULOS SKILLS, HOBBIES FORMACION EXPERIENCIA */
+.about__title,
+.skills__titulo,
+.hobbies__titulo,
+.education__titulo,
+.experience__section__title,
+.contact__titulo {
     font-weight: bold;
     text-align: center;
     font-style: oblique;
@@ -207,7 +207,7 @@ body {
     line-height: 1.5;
 }
 
-.skills-container {
+.skills__container {
     display: flex;
     margin-top: 10px;
     flex-direction: row;
@@ -215,7 +215,7 @@ body {
 
 }
 
-.skills-box {
+.skills__box {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -228,7 +228,7 @@ body {
     flex: 1;
 }
 
-.skills-img img {
+.skills__img img {
     width: 50px;
     height: auto;
     flex: none;
@@ -236,9 +236,9 @@ body {
     align-self: center;
 }
 
-/*Estilos a las li de skills, hobbies */
-.skills-name,
-.hobbies-name {
+/* STYLES li de skills, hobbies */
+.skills__nme,
+.hobbies__nme {
     display: flex;
     margin-left: 10px;
     font-size: 15px;
@@ -251,7 +251,7 @@ body {
 
 /*Hobbies */
 
-.section-hobbies {
+.section__hobbies {
     display: flex;
     padding: 20px;
     background: var(--beige-primario);
@@ -259,7 +259,7 @@ body {
     flex-direction: column;
 }
 
-.hobbies-container {
+.hobbies__container {
     display: flex;
     margin-top: 10px;
     flex-direction: row;
@@ -267,7 +267,7 @@ body {
 
 }
 
-.hobbies-box {
+.hobbies__box {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -280,16 +280,16 @@ body {
     flex: 1;
 }
 
-.hobbies-img img {
+.hobbies__img img {
     width: 65px;
     height: auto;
     flex: none;
 }
 
 
-/*Estilos para la sección de Formaciones académicas*/
+/* STYLE EDUCATION */
 
-.section-education {
+.section__education {
     width: 100%;
     height: 100%;
     padding: 20px;
@@ -299,7 +299,7 @@ body {
     flex-direction: column;
 }
 
-.education-container {
+.education__container {
     display: flex;
     margin-top: 30px;
     flex-direction: row;
@@ -307,7 +307,7 @@ body {
     margin: 25px;
 }
 
-.education-box {
+.education__box {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -321,7 +321,7 @@ body {
 }
 
 
-.education-item-img img {
+.education__item__img img {
     width: 110px;
     height: 110px;
     flex: none;
@@ -339,7 +339,7 @@ body {
     margin-top: 15px;
 }
 
-.education-item-subtitle {
+.education__item__title {
     display: flex;
     font-size: 15px;
     margin-left: 10px;
@@ -351,7 +351,7 @@ body {
 
 /*Experiencia*/
 
-.section-experience {
+.section__experience {
     display: flex;
     padding: 20px;
     background: var(--beige-primario);
@@ -359,7 +359,7 @@ body {
     flex-direction: column
 }
 
-.experience-box {
+.experience__box {
     display: flex;
     margin-top: 10px;
     padding: 10px;
@@ -368,13 +368,13 @@ body {
     justify-content: center;
 }
 
-.experience-box img {
+.experience__box img {
     width: 35%;
     height: auto;
     margin: 15px;
 }
 
-.experience-info {
+.experience__info {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -382,9 +382,9 @@ body {
 }
 
 
-/*Estilo para el juego número secreto*/
+/* STYLE NUMERO SECRETO */
 
-.experience-info-container {
+.experience__info__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
