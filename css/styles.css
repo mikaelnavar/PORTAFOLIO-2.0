@@ -26,8 +26,8 @@ body {
     text-align: center;
 }
 
-/* Diseño del menú */
-.navar__list {
+/* NAVBAR */
+.navbar__list {
     display: flex;
     position: fixed;
     justify-content: flex-end;
@@ -41,6 +41,9 @@ body {
     padding: 20px;
 }
 
+.navbar__list:hover{
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.08);
+}
 
 .navbar__items {
     display: flex;
