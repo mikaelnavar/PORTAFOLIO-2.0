@@ -4,15 +4,15 @@
 *::before,
 *::after {
     /*Fondos para las secciones principal, skills, hobbies y experiencia*/
-    --fondo1: #DAC0A3;
+    --fondo1: #f3efe1;
     /*Fondos para las otras secciones sobre mí, formación y contacto*/
     --fondo2: #EADBC8;
     /*Fondo para el footer*/
-    --footer-azul-oscuro: #102C57;
+    --footer-azul-oscuro: #254336;
     /*Fondo para los botones repo, demo y enviar*/
-    --button-repo-café-oscuro: #76453B;
-    --button-demo-crema: #F8FAE5;
-    --button-enviar-café-oscuro: #76453B;
+    --button-repo-café-oscuro: #6B8A7A;
+    --button-demo-crema: #B7B597;
+    --button-enviar-café-oscuro: #164430;
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
