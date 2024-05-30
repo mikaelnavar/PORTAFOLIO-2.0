@@ -10,9 +10,9 @@
     /*Fondo para el footer*/
     --footer-azul-oscuro: #254336;
     /*Fondo para los botones repo, demo y enviar*/
-    --button-repo-café-oscuro: #6B8A7A;
+    --button-repo-cafe-oscuro: #6B8A7A;
     --button-demo-crema: #B7B597;
-    --button-enviar-café-oscuro: #164430;
+    --button-enviar-cafe-oscuro: #164430;
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -443,7 +443,7 @@ body {
 .experience__button__repo {
     height: 60px;
     width: 120px;
-    background-color: var(--button-repo-café-oscuro);
+    background-color: var(--button-repo-cafe-oscuro);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -456,7 +456,7 @@ body {
 }
 
 .experience__button__repo:active {
-    background-color: var(--button-repo-café-oscuro);
+    background-color: var(--button-repo-cafe-oscuro);
 }
 
 .experience__button__demo {
@@ -589,7 +589,7 @@ body {
     color: white;
     font-size: 15px;
     font-weight: bold;
-    background-color: var(--button-enviar-café-oscuro);
+    background-color: var(--button-enviar-cafe-oscuro);
     border: none;
     border-radius: 5px;
     cursor: pointer;
