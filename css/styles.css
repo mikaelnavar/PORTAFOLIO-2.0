@@ -4,9 +4,9 @@
 *::before,
 *::after {
     /*Fondos para las secciones principal, skills, hobbies y experiencia*/
-    --fondo1: #f3efe1;
+    --fondo1: #f5efe4;
     /*Fondos para las otras secciones sobre mí, formación y contacto*/
-    --fondo2: #EADBC8;
+    --fondo2: #fbfced;
     /*Fondo para el footer*/
     --footer-azul-oscuro: #254336;
     /*Fondo para los botones repo, demo y enviar*/
