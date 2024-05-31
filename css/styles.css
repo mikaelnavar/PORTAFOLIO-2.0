@@ -8,11 +8,11 @@
     /*Fondos para las otras secciones sobre mí, formación y contacto*/
     --fondo2: #fbfced;
     /*Fondo para el footer*/
-    --footer-azul-oscuro: #254336;
+    --footer-azul-oscuro: #243757;
     /*Fondo para los botones repo, demo y enviar*/
-    --button-repo-cafe-oscuro: #6B8A7A;
-    --button-demo-crema: #B7B597;
-    --button-enviar-cafe-oscuro: #164430;
+    --button-repo-cafe-oscuro: #3a5f6f;
+    --button-demo-crema: #665e52;
+    --button-enviar-cafe-oscuro: #c2b79b;
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
